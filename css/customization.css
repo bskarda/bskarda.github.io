@@ -1,0 +1,37 @@
+body {
+  background-color: #FFFFFF;
+}
+
+.well {
+  background-color: #FFF4E8;
+}
+
+.jumbotron {
+  background-color: #FFFFFF;
+}
+
+.navbar-default{
+    background-color: #95dbac;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 20px;
+  color: #050505;
+}
+
+.navbar .divider-vertical {
+  height: 41px;
+  background-color: #ffffff;
+  border-right: 1px solid #c6c6c6;
+}
+
+.navbar .nav > li > a {
+  font-size: 14px;
+  color: #333333;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #191919;
+}

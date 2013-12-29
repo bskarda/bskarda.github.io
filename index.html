@@ -1,13 +1,148 @@
----
-layout: default
-title: Your New Jekyll Site
----
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brian Skarda</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<link href="css/customization.css" rel="stylesheet" media="screen"> 
+
+<!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="../../assets/js/html5shiv.js"></script>
+    <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Brian Skarda</a>
+  </div>
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="mailto:bskarda@vt.edu">
+        <i class="fa fa-envelope fa-lg"></i></a></li>
+      <li><a href="http://www.linkedin.com/in/brianskarda">
+        <span class="fa fa-linkedin fa-lg"></span></a></li>
+      <li><a href="https://www.facebook.com/bskarda">
+        <span class="fa fa-facebook fa-lg"></span></a></li>
+      <li><a href="https://twitter.com/BrianSkarda">
+        <span class="fa fa-twitter fa-lg"></span></a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+  </div>
 </div>
+
+<div class="container">
+  <div class="jumbotron">
+    <div class="container">
+      <div style="text-align:center">
+        <h1>Brian Skarda</h1>
+        <div class="row">
+          <div class="col-xs-4">
+            <img src="images/Headshot.png" alt="It's me!" class="img-responsive img-rounded" style="margin: 0 auto;">
+          </div>
+          <div class="col-xs-8">
+            <p>
+            I'm a Software Engineer.
+            </p>
+            <p>
+            I'm an avid rock climber, mountain biker, and general outdoor fanatic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="project">
+    <div class="well">
+      <h1>Projects</h1>
+      <h3><a href="http://www.github.com/bskarda">GitHub</a></h3>
+      <div class="container">
+        <p>View my personal projects, coursework, config files</p>
+      </div>
+      <h3><a href="http://www.bargainburg.co">Bargainburg</a></h3>
+      <div class="container">
+        <p>
+        My capstone project for Software Engineering At Virginia
+        Tech. I was the team lead for backend development. The sourcecode
+        for the entire project is up on my GitHub page.
+        </p>
+      </div>
+      <!-- Add bit about server here -->
+    </div>
+  </div>
+
+
+  <div id="resume">
+    <div class="well">
+      <h1>Resume</h1>
+      <hr>
+      <h3 id="education">Education</h3>
+
+      <p>B.S., Computer Science (Minor in Mathematics)
+      Expected graduation, May 2014 (Senior Class Status)
+      Virginia Tech, College of Engineering
+      Virginia Polytechnic Institute and State University, Blacksburg, VA GPA: Overall 3.70/4.0 In Major 3.79/4.0</p>
+
+      <h3 id="workexperience">Work Experience</h3>
+
+      <h4 id="cvent">Software Technology Intern, Cvent Corp., McLean Va - Summer 2013</h4>
+
+      <ul>
+        <li>Researched, designed, and built an ETL Process using Java, Python, and C# between SQL Server and MemSQL or MySQL. Replaced the logging infrastructure in the entire codebase with a custom forked log4net implementation. Worked on forking the Capistrano project in order to deploy to Windows machines.</li>
+      </ul>
+
+      <h4 id="aps">Engineering Intern, Applied Physical Sciences Corp., Ballston VA - Summer 2012</h4>
+
+      <ul>
+        <li>Developed software for multiple engineering projects, including creating production code
+        using the Google Protocol Buffers, ZeroMQ, and OpenCV frameworks. All programs were either written in C, C++ or Matlab.</li>
+      </ul>
+
+      <h3 id="skills">Skills</h3>
+
+      <h4 id="operatingsystems">Operating Systems</h4>
+
+      <p>Linux (Command Line &amp; GUI), Windows 7, OS X</p>
+
+      <h4 id="languages">Languages</h4>
+
+      <p>Java, C, C++, C#, Ruby, Python, Visual Basic, Matlab</p>
+
+      <h4 id="frameworksandtools">Frameworks and Tools</h4>
+
+      <p>Git, Android Programming, MVC, FreeNAS, Data Analytics, Networking, Ruby on Rails, Database and SQL, Backend Web Services and REST</p>
+
+      <h3 id="extracurricularactivities">Extracurricular Activities</h3>
+
+      <p>Virginia Tech Rock Climbing Club 2010 - Present</p>
+
+      <ul>
+        <li>President (2013-2014) and Trip Leader</li>
+        <li>Organized events for hundreds of people and introductory climbing trips</li>
+      </ul>
+
+      <p>Association for Computing Machinery 2009 - Present 
+      Virginia Tech Cyber Security Club 2012 - Present</p>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
