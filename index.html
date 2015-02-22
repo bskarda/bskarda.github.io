@@ -3,48 +3,48 @@ layout: home
 title: Brian Skarda
 ---
 
-  <div class="jumbotron">
-    <div class="container">
-      <div style="text-align:center">
-        <h1>Brian Skarda</h1>
-        <div class="row">
-          <div class="col-xs-4">
-            <img src="images/Headshot.png" alt="It's me!" class="img-responsive img-rounded" style="margin: 0 auto;">
-          </div>
-          <div class="col-xs-8">
-            <p>
-            I'm a Software Engineer.
-            </p>
-            <p>
-            I'm an avid rock climber, mountain biker, and general outdoor fanatic.
-            </p>
-          </div>
+<div class="jumbotron">
+  <div class="container">
+    <div style="text-align:center">
+      <h1>Brian Skarda</h1>
+      <div class="row">
+        <div class="col-xs-4">
+          <img src="images/Headshot.png" alt="It's me!" class="img-responsive img-rounded" style="margin: 0 auto;">
+        </div>
+        <div class="col-xs-8">
+          <p>
+          I'm a Software Engineer.
+          </p>
+          <p>
+          I'm an avid rock climber, mountain biker, and general outdoor fanatic.
+          </p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div id="project">
-    <div class="well">
-      <h1>Projects</h1>
-      <h3><a href="http://www.github.com/bskarda">GitHub</a></h3>
-      <div class="container">
-        <p>View my personal projects, coursework, config files</p>
-      </div>
-      <h3><a href="http://www.bargainburg.co">Bargainburg</a></h3>
-      <div class="container">
-        <p>
-        My capstone project for Software Engineering At Virginia
-        Tech. I was the team lead for backend development. The sourcecode
-        for the entire project is up on my GitHub page.
-        </p>
-      </div>
+<div id="project">
+  <div class="well">
+    <h1>Projects</h1>
+    <h3><a href="http://www.github.com/bskarda">GitHub</a></h3>
+    <div class="container">
+      <p>View my personal projects, coursework, config files</p>
+    </div>
+    <h3><strike>Bargainburg</strike></h3>
+    <div class="container">
+      <p>
+      My capstone project for Software Engineering At Virginia Tech.
+      I was the team lead for backend development. The site is no longer hosted
+      but the sourcecode for the entire project is up on my GitHub page.
+      </p>
     </div>
   </div>
+</div>
 
-  <div id="resume">
-    <div class="well">
-      {% capture resume %}{% include resume.md %}{% endcapture %}
-      {{ resume | markdownify }}
-    </div>
+<div id="resume">
+  <div class="well">
+    {% capture resume %}{% include resume.md %}{% endcapture %}
+    {{ resume | markdownify }}
   </div>
+</div>

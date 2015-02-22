@@ -2,11 +2,11 @@
 
 ###Education
 B.S., Computer Science (Minor in Mathematics)
-Expected graduation, May 2014 (Senior Class Status)
-Virginia Tech, College of Engineering
-Virginia Polytechnic Institute and State University, Blacksburg, VA GPA: Overall 3.70/4.0 In Major 3.79/4.0
+
+Virginia Tech, College of Engineering, Class of 2014
 
 ###Work Experience
+####Implementation Engineer, Opower, Arlington Va July 2014 to Present
 ####Software Technology Intern, Cvent Corp., McLean Va - Summer 2013
 - Researched, designed, and built an ETL Process using Java, Python, and C# between SQL Server and MemSQL or MySQL. Replaced the logging infrastructure in the entire codebase with a custom forked log4net implementation. Worked on forking the Capistrano project in order to deploy to Windows machines.
 
