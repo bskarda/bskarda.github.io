@@ -3,15 +3,11 @@ layout: home
 title: Brian Skarda
 ---
 
-<div class="jumbotron">
-  <div class="container">
-    <div style="text-align:center">
+<div>
+  <div>
       <h1>Brian Skarda</h1>
-      <div class="row">
-        <div class="col-xs-4">
-          <img src="images/Headshot.png" alt="It's me!" class="img-responsive img-rounded" style="margin: 0 auto;">
-        </div>
-        <div class="col-xs-8">
+      <div>
+        <div>
           <p>
           I'm a Software Engineer.
           </p>
@@ -19,20 +15,35 @@ title: Brian Skarda
           I'm an avid rock climber, mountain biker, and general outdoor fanatic.
           </p>
         </div>
-      </div>
     </div>
   </div>
 </div>
 
+<div>
+  <ul>
+    <li><a href="mailto:bskarda@vt.edu">
+        email</a></li>
+    <li><a href="http://www.linkedin.com/in/brianskarda">
+        linkedin</a></li>
+    <li><a href="https://www.facebook.com/bskarda">
+        facebook</a></li>
+    <li><a href="https://twitter.com/BrianSkarda">
+        twitter</a></li>
+    <li><a href="/#project">Projects</a></li>
+    <li><a href="/#resume">Resume</a></li>
+    <li><a href="/blog/">Blog</a></li>
+  </ul>
+</div>
+
 <div id="project">
-  <div class="well">
+  <div>
     <h1>Projects</h1>
     <h3><a href="http://www.github.com/bskarda">GitHub</a></h3>
-    <div class="container">
+    <div>
       <p>View my personal projects, coursework, config files</p>
     </div>
     <h3><strike>Bargainburg</strike></h3>
-    <div class="container">
+    <div>
       <p>
       My capstone project for Software Engineering At Virginia Tech.
       I was the team lead for backend development. The site is no longer hosted
@@ -43,7 +54,7 @@ title: Brian Skarda
 </div>
 
 <div id="resume">
-  <div class="well">
+  <div>
     {% capture resume %}{% include resume.md %}{% endcapture %}
     {{ resume | markdownify }}
   </div>
