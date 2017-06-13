@@ -1,4 +1,35 @@
-#Resume
+---
+layout: home
+title: Brian Skarda
+---
+
+#Brian Skarda
+
+I'm a Software Engineer.
+
+I'm an avid rock climber, mountain biker, and general outdoor fanatic.
+
+##Find me on the web
+- [email](mailto:bskarda@vt.edu)
+- [linkedin](http://www.linkedin.com/in/brianskarda)
+- [twitter](https://twitter.com/BrianSkarda)
+- [projects](/#projects)
+- [resume](/#resume)
+- [blog](/blog)
+
+##Projects
+
+###[Github](http://www.github.com/bskarda)
+
+View my personal projects, coursework, config files
+
+###~~Bargainburg~~
+
+My capstone project for Software Engineering At Virginia Tech.
+I was the team lead for backend development. The site is no longer hosted
+but the sourcecode for the entire project is up on my GitHub page.
+
+##Resume
 
 ###Education
 B.S., Computer Science (Minor in Mathematics)
