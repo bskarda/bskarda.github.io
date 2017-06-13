@@ -1,3 +1,6 @@
 name: Brian Skarda
 markdown: kramdown
 highligher: pygments
+
+kramdown:
+  input: GFM
